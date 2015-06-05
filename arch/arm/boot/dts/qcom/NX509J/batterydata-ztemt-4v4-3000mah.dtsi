@@ -1,0 +1,61 @@
+/* Copyright (c) 2013-2014, The Linux Foundation. All rights reserved.
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 and
+ * only version 2 as published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+
+//zte_nx508j_3000mah_averaged_masterslave_dec10th2014
+
+qcom,ztemt-batterydata  {
+	qcom,fcc-mah = <3000>;
+	qcom,default-rbatt-mohm = <128>;
+	qcom,max-voltage-uv = <4400000>;
+	qcom,rbatt-capacitive-mohm = <50>;
+	qcom,v-cutoff-uv = <3400000>;
+	qcom,chg-term-ua = <100000>;
+	qcom,batt-id-kohm = <470>;
+	qcom,checksum = <0xE9F4>;
+	qcom,battery-type = "ztemt_3000mah";
+
+	qcom,fg-profile-data = [
+		 E1 83 C7 7C 
+		 03 81 29 77 
+		 75 83 86 7C 
+		 30 90 B5 96 
+		 21 82 51 99 
+		 96 B7 36 C3 
+		 52 15 0D 88 
+		 DD 7E C4 82 
+		 62 7D 52 83 
+		 6B 6B 11 71 
+		 27 84 56 82 
+		 97 99 EF BC 
+		 DA C9 65 0C 
+		 A4 0B B8 5B 
+		 D2 6F 71 FD 
+		 37 3E 98 44 
+		 1E 32 00 00 
+		 3F 45 19 30 
+		 96 44 00 00 
+		 00 00 00 00 
+		 00 00 00 00 
+		 72 70 62 70 
+		 FE 75 1B 88 
+		 19 75 87 62 
+		 AA 7B F8 88 
+		 D2 6C B1 64 
+		 F3 71 C3 A0 
+		 1F 6D 60 F7 
+		 5F A0 71 0C 
+		 28 00 FF 36 
+		 F0 11 30 03 
+		 00 00 00 00 
+	];
+};
+
